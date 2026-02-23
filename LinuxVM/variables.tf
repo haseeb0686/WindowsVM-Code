@@ -15,8 +15,8 @@ variable "admin_username" {
   type        = string
 }
 
-variable "admin_password" {
-  description = "Admin Password"
-  type        = string
-  sensitive   = true
-}
+//variable "admin_password" {
+  //description = "Admin Password"
+  //type        = string
+  //sensitive   = true
+//}

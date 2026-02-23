@@ -4,5 +4,5 @@ output "public_ip" {
 }
 
 output "vm_name" {
-  value = azurerm_windows_virtual_machine.vm.name
+  value = azurerm_linux_virtual_machine.vm.name
 }
